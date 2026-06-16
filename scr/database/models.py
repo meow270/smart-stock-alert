@@ -16,6 +16,6 @@ class Data_Collect(Base):
     high = Column(Float)
     low = Column(Float)
     close = Column(Float)
-    volume = Column(Float)
+    volume = Column(Integer)
 
 Base.metadata.create_all(bind=session.engine)
