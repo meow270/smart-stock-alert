@@ -42,6 +42,7 @@ class Data:
                     )
                 db.add(data_sql)
             db.commit()
+        print('data save')
             
                     
 if __name__ == "__main__":
